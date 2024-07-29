@@ -33,4 +33,8 @@ public class NorthCharger extends AppCompatActivity {
             }
         });
     }
+
+
+
+
 }
