@@ -42,6 +42,17 @@ public class MainActivity extends AppCompatActivity {
               startActivity(intent);
           }
         });
+        //Add click listener for"南部充電樁"button
+        Button southButton=findViewById(R.id.button4);
+        southButton.setOnClickListener(new View.OnClickListener()
+       {
+           public void onClick(View v)
+           {
+               Intent intent=new Intent(MainActivity.this,MidCharger.class);
+               startActivity(intent);
+
+           }
+       });
 
 
 
