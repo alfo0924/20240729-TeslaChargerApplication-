@@ -52,17 +52,19 @@ public class MidCharger extends AppCompatActivity {
     public void ChangHuaTeslaSuperCharger(View view)
     {
         Intent i=new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:24.068831060479734, 120.55482218788259?=tesla supercharger"));
+        i.setData(Uri.parse("geo:24.068831060479734, 120.55482218788259?q=tesla supercharger"));
         startActivity(i);
     }
     public void YunlinTeslaSuperCharger(View view)
     {
         Intent i=new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse("geo:23.70953196108341, 120.44131737885986?q=tesla supercharger"));
+        startActivity(i);
     }
     public void NantoTeslaSuperCharger(View view)
     {
      Intent i=new Intent(Intent.ACTION_VIEW);
      i.setData(Uri.parse("geo:23.833647434398046, 120.99323474579853?q=tesla supercharger"));
+        startActivity(i);
     }
 }
