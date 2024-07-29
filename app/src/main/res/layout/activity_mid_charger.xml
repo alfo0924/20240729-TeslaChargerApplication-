@@ -8,8 +8,8 @@
     tools:context=".MidCharger">
 
     <LinearLayout
-        android:layout_width="410dp"
-        android:layout_height="487dp"
+        android:layout_width="409dp"
+        android:layout_height="533dp"
         android:layout_marginTop="120dp"
         android:gravity="center"
         android:orientation="vertical"
@@ -32,13 +32,13 @@
             android:textSize="24sp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="375dp"
+            android:layout_height="320dp"
             android:orientation="vertical">
 
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="352dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -90,6 +90,13 @@
             </ScrollView>
 
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="返回" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
