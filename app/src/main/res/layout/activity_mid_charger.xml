@@ -53,6 +53,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:onClick="MiaoliTeslaSuperCharger"
                         android:text="苗栗縣" />
 
                     <Button
@@ -60,6 +61,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:onClick="TaichungTeslaSuperCharger"
                         android:text="台中市"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -69,6 +71,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:onClick="ChangHuaTeslaSuperCharger"
                         android:text="彰化縣"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent" />
@@ -78,6 +81,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:onClick="YunlinTeslaSuperCharger"
                         android:text="雲林縣" />
 
                     <Button
@@ -85,6 +89,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
+                        android:onClick="NantoTeslaSuperCharger"
                         android:text="南投縣" />
                 </LinearLayout>
             </ScrollView>

@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
         // Add click listener for the "北部充電樁" button
         Button northButton = findViewById(R.id.button2);
         northButton.setOnClickListener(new View.OnClickListener() {
@@ -34,5 +33,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        //Add click listener for"中部充電樁"button
+        Button midButton=findViewById(R.id.button3);
+        midButton.setOnClickListener(new View.OnClickListener()
+        {
+          public void onClick(View v){
+              Intent intent=new Intent(MainActivity.this,MidCharger.class);
+              startActivity(intent);
+          }
+        });
+
+
+
     }
 }
