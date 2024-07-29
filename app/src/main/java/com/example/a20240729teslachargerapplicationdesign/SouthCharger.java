@@ -54,13 +54,13 @@ public class SouthCharger extends AppCompatActivity {
     public void TainanTeslaSuperCharger(View view)
     {
         Intent i=new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("geo:22.99071641889257, 120.22789055615459?q=tesla supercharger"));
+        i.setData(Uri.parse("geo:22.99798055176378, 120.22731177951187?q=tesla supercharger"));
         startActivity(i);
     }
     public void PingTungTeslaSuperCharger(View view)
     {
         Intent i=new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse("seo:22.54843046155712, 120.62955204396573?q=tesla supercharger"));
+        i.setData(Uri.parse("seo:22.67230968678545, 120.49763040638871?q=tesla supercharger"));
         startActivity(i);
     }
     public void PengHuTeslaSuperCharger(View view)
