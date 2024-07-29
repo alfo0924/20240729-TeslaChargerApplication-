@@ -53,8 +53,16 @@ public class MainActivity extends AppCompatActivity {
 
            }
        });
-
-
-
+        //Add click listener for "東部充電樁"button
+        Button eastButton=findViewById(R.id.button5);
+        eastButton.setOnClickListener(new View.OnClickListener()
+        {
+         public void onClick(View v)
+         {
+          Intent intent=new Intent
+          (MainActivity.this,EastCharger.class);
+          startActivity(intent);
+         }
+        });
     }
 }
